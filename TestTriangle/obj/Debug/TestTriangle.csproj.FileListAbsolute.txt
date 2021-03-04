@@ -1,0 +1,12 @@
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\TestTriangle.dll
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\TestTriangle.pdb
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\Assignment2.exe
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\nunit.framework.dll
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\Assignment2.pdb
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\Assignment2.exe.config
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\bin\Debug\nunit.framework.xml
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\obj\Debug\TestTriangle.csprojAssemblyReference.cache
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\obj\Debug\TestTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\obj\Debug\TestTriangle.csproj.CopyComplete
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\obj\Debug\TestTriangle.dll
+C:\Users\Shynu Mary Varghese\source\repos\Assignment2\TestTriangle\obj\Debug\TestTriangle.pdb

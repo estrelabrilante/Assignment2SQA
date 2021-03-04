@@ -25,7 +25,7 @@ namespace Assignment2
             }
             else
             {
-                x = "Scales";
+                x = "Scalene";
             }
 
             return x;
