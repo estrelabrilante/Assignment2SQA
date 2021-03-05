@@ -12,7 +12,7 @@ namespace TestTriangle
     public class Class1
     {
         [Test]
-        public void Analyze1()
+        public void AnalyzeTest1()
         {
             //Arrange
             int a = 3;
@@ -25,81 +25,80 @@ namespace TestTriangle
             Assert.AreEqual("Equilateral", output);
         }
         [Test]
-        public void Analyze2()
+        public void AnalyzeTest2()
         {
-            int a = -2;//1;
-            int b = -2;//2;
-            int c = -2;//0;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Equilateral", output);
+            int a = -2;//Arrange
+            int b = -2;
+            int c = -2;
+            string output = TriangleSolver.Analyze(a, b, c);//Act
+            Assert.AreNotEqual("Equilateral", output);//Assert
 
 
         }
 
         [Test]
-        public void Analyze3()
+        public void AnalyzeTest3()
         {
-            int a = 1;
+            int a = 1;//Arrange
             int b = 0;
             int c = 0;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Isosceles", output);//Equilateral
-
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreNotEqual("Isosceles", output);//Assert
 
         }
         [Test]
-        public void Analyze4()
+        public void AnalyzeTest4()
         {
             int a = 1;
-            int b = 1;
+            int b = 1;//Arrange
             int c = 3;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreEqual("Isosceles", output);
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreEqual("Isosceles", output);//Assert
 
 
         }
         [Test]
-        public void Analyze5()
+        public void AnalyzeTest5()
         {
             int a = 1;
-            int b = 2;
+            int b = 2;//Arrange
             int c = 3;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreEqual("Scalene", output);
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreEqual("Scalene", output);//Assert
 
 
         }
         [Test]
-        public void Analyze6()
+        public void AnalyzeTest6()
         {
-            int a = -1; // 10;
-            int b = -2; // 10;
-            int c = -3;// 3;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Scalene", output);
+            int a = -1; //Arrange
+            int b = -2;
+            int c = -3;
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreNotEqual("Scalene", output);//Assert
 
 
         }
         [Test]
-        public void Analyze7()
+        public void AnalyzeTest7()
         {
-            int a = -50;
+            int a = -50;//Arrange
             int b = 150;
             int c = 3;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Scalene", output);
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreNotEqual("Scalene", output);//Assert
 
 
         }
 
         [Test]
-        public void Analyze8()
+        public void AnalyzeTest8()
         {
-            int a = 50;
+            int a = 50;//Arrange
             int b = -50;
             int c = -50;
-            string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Isosceles", output);
+            string output = TriangleSolver.Analyze(a, b, c); //Act
+            Assert.AreNotEqual("Isosceles", output);//Assert
 
 
         }

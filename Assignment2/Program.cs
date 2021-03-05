@@ -19,8 +19,7 @@ namespace Assignment2
                 Console.WriteLine("1-Enter triangle dimensions");
                 Console.WriteLine("2-Exit");
                 input = Console.ReadLine();
-                //int result = 0;
-
+                
                 if (int.TryParse(input, out menu))
                 {
 
@@ -32,7 +31,6 @@ namespace Assignment2
                             Console.WriteLine("Enter three integer ");
                             begin:
                             Console.WriteLine("Enter first sides");
-                            //int a = Convert.ToInt32(Console.ReadLine());
                             //First side
                             String firstside = Console.ReadLine();
                             int result1 = 0;
@@ -75,15 +73,8 @@ namespace Assignment2
                             {
                                 Console.WriteLine("Not a number");
                                 goto begin3;
-                            }
-
-                            
-                            
-                            
-
-                            //int b = Convert.ToInt32(Console.ReadLine());
-
-                            //int c = Convert.ToInt32(Console.ReadLine());
+                            }                    
+                                                 
                             if ((a + b > c || b + c > a || a + c > b) && (a > 0) && (b > 0) && (c > 0))
                             {
                                 Console.WriteLine("Three sides form a triangle");
