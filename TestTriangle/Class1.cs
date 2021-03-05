@@ -27,9 +27,9 @@ namespace TestTriangle
         [Test]
         public void Analyze2()
         {
-            int a = 1;
-            int b = 2;
-            int c = 0;
+            int a = -2;//1;
+            int b = -2;//2;
+            int c = -2;//0;
             string output = TriangleSolver.Analyze(a, b, c);
             Assert.AreNotEqual("Equilateral", output);
 
@@ -43,7 +43,7 @@ namespace TestTriangle
             int b = 0;
             int c = 0;
             string output = TriangleSolver.Analyze(a, b, c);
-            Assert.AreNotEqual("Equilateral", output);
+            Assert.AreNotEqual("Isosceles", output);//Equilateral
 
 
         }
@@ -72,9 +72,9 @@ namespace TestTriangle
         [Test]
         public void Analyze6()
         {
-            int a = 10;
-            int b = 10;
-            int c = 3;
+            int a = -1; // 10;
+            int b = -2; // 10;
+            int c = -3;// 3;
             string output = TriangleSolver.Analyze(a, b, c);
             Assert.AreNotEqual("Scalene", output);
 
@@ -83,8 +83,8 @@ namespace TestTriangle
         [Test]
         public void Analyze7()
         {
-            int a = 50;
-            int b = 50;
+            int a = -50;
+            int b = 150;
             int c = 3;
             string output = TriangleSolver.Analyze(a, b, c);
             Assert.AreNotEqual("Scalene", output);
@@ -96,8 +96,8 @@ namespace TestTriangle
         public void Analyze8()
         {
             int a = 50;
-            int b = 50;
-            int c = 50;
+            int b = -50;
+            int c = -50;
             string output = TriangleSolver.Analyze(a, b, c);
             Assert.AreNotEqual("Isosceles", output);
 

@@ -9,26 +9,28 @@ namespace Assignment2
    public static class TriangleSolver
     {
         //Equilateral Triangle: three sides are equal
-        // Isosceles Triangle: atleast two sides are equal
+        //Isosceles Triangle: atleast two sides are equal
         //scalene: No sides are equal
         
         public static string Analyze(int a, int b, int c)
         {
-            string x;
-            if ((a == b) && (b == c)) {
+           string x;
+            if (((a == b) && (b == c))&&((a>0)&&(b>0)&&(c>0))) {
                 x = "Equilateral";
-                //return x;
+                
             }
-            else if (a == b || b == c || c == a)
-            {
+            else if ((a == b || b == c || c == a)&& ((a > 0) && (b > 0) && (c > 0))) {
                 x = "Isosceles";
+            }
+            else if (((a!=b)&&(b!=c)&&(a!=c))&& ((a > 0) && (b > 0) && (c > 0))) {
+                x = "Scalene";
             }
             else
             {
-                x = "Scalene";
+                x = "Not a triangle";
             }
 
-            return x;
+          return x;
 
         }
 
